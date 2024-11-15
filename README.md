@@ -11,4 +11,8 @@ This script should resolve the issue
 2. Sample usage
 ```
 p12-update-converter.sh -f FILE_PATH_WITH_FILE_NAME -p 'CERTIFICATE PASSWORD' -n 'OUTPUT NAME' 
+```
+
+```
+p12-update-converter.sh -f folder/cert.p12 -p 'pass123' -n 'new_cert' 
 ``` 
