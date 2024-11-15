@@ -2,7 +2,11 @@
 
 Convert p12 file from OpenSSL1.1 to OpenSSL 3.
 
-Guide
+This script should resolve the issue
+
+##[warning]Error parsing certificate. This might be caused by an unsupported algorithm. If you're using old certificate with a new OpenSSL version try to set -legacy flag in opensslPkcsArgs input.
+
+## Guide
 1. After downloading set the bash script chmod to 777
 2. Sample usage
 ```
