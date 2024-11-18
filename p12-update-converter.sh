@@ -41,7 +41,7 @@ checkOptions()
 
 creatingATemporaryLegacyCertificateCopy()
 {
-  cp $p12_file_path_name temp_certificate.p12
+  cp "$p12_file_path_name" "temp_certificate.p12"
 }
 
 conversionPEM()
