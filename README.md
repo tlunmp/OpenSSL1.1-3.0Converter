@@ -6,6 +6,8 @@ This script should resolve the issue
 
 ##[warning]Error parsing certificate. This might be caused by an unsupported algorithm. If you're using old certificate with a new OpenSSL version try to set -legacy flag in opensslPkcsArgs input.
 
+##Please backup your p12 file
+
 ## Guide
 1. After downloading set the bash script chmod to 777
 2. Sample usage
@@ -15,4 +17,5 @@ p12-update-converter.sh -f 'FILE_PATH_WITH_FILE_NAME' -p 'CERTIFICATE PASSWORD' 
 
 ```
 p12-update-converter.sh -f 'folder/cert.p12' -p 'pass123' -n 'new_cert' 
-``` 
+```
+3. Converted p12 path should located  where you ran the script
